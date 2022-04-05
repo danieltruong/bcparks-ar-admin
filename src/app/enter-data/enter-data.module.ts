@@ -8,6 +8,7 @@ import { DatePickerModule } from '../shared/components/date-picker/date-picker.m
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { TextInputModule } from '../shared/components/forms/text-input/text-input.module';
 
 @NgModule({
   declarations: [EnterDataComponent],
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     BsDatepickerModule.forRoot(),
     BrowserAnimationsModule,
+    TextInputModule,
   ],
   exports: [EnterDataComponent],
 })
